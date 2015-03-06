@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.randomshot.projectilemotionsolver.horizontalInputs">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Horizontal Information"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:inputType="numberSigned|numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/velocityInputforHor"
+        android:width="200dp"
+        android:hint="Velocity"
+        android:layout_marginTop="67dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:inputType="numberSigned|numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displacementInputforHor"
+        android:width="200dp"
+        android:hint="Displacement"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/velocityInputforHor"
+        android:layout_alignLeft="@+id/velocityInputforHor"
+        android:layout_alignStart="@+id/velocityInputforHor"
+        android:layout_marginTop="50dp" />
+    <EditText
+        android:inputType="numberSigned|numberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeInputforHor"
+        android:width="200dp"
+        android:hint="Time"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/displacementInputforHor"
+        android:layout_alignLeft="@+id/displacementInputforHor"
+        android:layout_alignStart="@+id/displacementInputforHor"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve for the unknown"
+        android:id="@+id/solveForHor"
+        android:layout_below="@+id/timeInputforHor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MUST HAVE 2 GIVEN"
+        android:id="@+id/tvForHorAnswer"
+        android:layout_below="@+id/solveForHor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+
+</RelativeLayout>

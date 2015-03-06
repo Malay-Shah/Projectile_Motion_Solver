@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projectile Motion Solver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vertical_displacement">Vertical Displacement</string>
+    <string name="title_activity_acceleration">Acceleration</string>
+    <string name="ProjectileMotionTitle">INFO ABOUT PROBLEM</string>
+    <string name="answerButtonText">Find the Answer</string>
+    <string name="disInputText">Displacement</string>
+    <string name="mustHave3FilledSpaces">MUST HAVE 3 GIVEN</string>
+    <string name="accHint">Acceleration</string>
+    <string name="verticalDisHint">Displacement</string>
+    <string name="verticalVelocityHint">Vertical Vi</string>
+    <string name="verticalFinalVelocityHint">Vertical Vf</string>
+    <string name="timeHint">Time</string>
+    <string name="findVDbuttonText">Find Displacement</string>
+    <string name="title_activity_vertical_velocity_initial">Vertical Velocity Initial</string>
+    <string name="title_activity_vertical_velocty_final">Vertical Velocity Final</string>
+    <string name="title_activity_time">Time</string>
+    <string name="title_activity_hor_time">Time Using Horizontal Info</string>
+    <string name="title_activity_hor_velocity">Horizontal Velocity</string>
+    <string name="title_activity_hor_displacement">Horizontal Displacement</string>
+    <string name="title_activity_horizontal_inputs">Horizontal Information</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>
