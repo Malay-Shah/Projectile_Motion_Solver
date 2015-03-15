@@ -9,7 +9,7 @@
     <string name="ProjectileMotionTitle">INFO ABOUT PROBLEM</string>
     <string name="answerButtonText">Find the Answer</string>
     <string name="disInputText">Displacement</string>
-    <string name="mustHave3FilledSpaces">MUST HAVE 3 GIVEN</string>
+    <string name="mustHave3FilledSpaces"></string>
     <string name="accHint">Acceleration</string>
     <string name="verticalDisHint">Displacement</string>
     <string name="verticalVelocityHint">Vertical Vi</string>
