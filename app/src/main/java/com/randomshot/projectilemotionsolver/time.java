@@ -82,10 +82,10 @@ public class time extends ActionBarActivity {
         Toast.makeText(this, "Please fill in more information! ", Toast.LENGTH_SHORT).show();
     }
     public void noAcc(){
-        float vi = 0;
-        float vf  = 0;
-        float vdis = 0;
-        float result = 0;
+        float vi;
+        float vf;
+        float vdis;
+        float result;
 
         vi = Float.parseFloat(vinitial.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
@@ -97,11 +97,11 @@ public class time extends ActionBarActivity {
     }
     public void noVi(){
 
-        float a = 0;
-        float vf  = 0;
-        float vdis = 0;
-        float result = 0;
-        float result2 = 0;
+        float a;
+        float vf;
+        float vdis;
+        float result;
+        float result2;
 
         a = Float.parseFloat(acc.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
@@ -116,11 +116,11 @@ public class time extends ActionBarActivity {
     }
     public void noVf(){
 
-        float vi = 0;
-        float a  = 0;
-        float vdis = 0;
-        float result = 0;
-        float result2 = 0;
+        float vi;
+        float a;
+        float vdis;
+        float result;
+        float result2;
 
         vi = Float.parseFloat(vinitial.getText().toString());
         a = Float.parseFloat(acc.getText().toString());
@@ -134,10 +134,10 @@ public class time extends ActionBarActivity {
     }
     public void noVdis(){
 
-        float vi = 0;
-        float vf  = 0;
-        float a = 0;
-        float result = 0;
+        float vi;
+        float vf;
+        float a;
+        float result;
 
         vi = Float.parseFloat(vinitial.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
@@ -148,10 +148,10 @@ public class time extends ActionBarActivity {
         tvResult.setText("Time is " + result);
     }
     public void filledSpot(){
-        float vi = 0;
-        float vf  = 0;
-        float vdis = 0;
-        float result = 0;
+        float vi;
+        float vf;
+        float vdis;
+        float result;
 
         vi = Float.parseFloat(vinitial.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());

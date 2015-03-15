@@ -69,9 +69,9 @@ public class horizontalInputs extends ActionBarActivity {
         Toast.makeText(this, "Please fill in more information! ", Toast.LENGTH_SHORT).show();
     }
     public void solveForVelocity(){
-        float d = 0;
-        float t = 0;
-        float result = 0;
+        float d ;
+        float t ;
+        float result;
 
         d = Float.parseFloat(displacement.getText().toString());
         t = Float.parseFloat(time.getText().toString());
@@ -81,9 +81,9 @@ public class horizontalInputs extends ActionBarActivity {
         tvResult.setText("Velocity is " + result);
     }
     public void solveForDisplacement(){
-        float t = 0;
-        float v = 0;
-        float result = 0;
+        float t ;
+        float v;
+        float result;
 
         t = Float.parseFloat(time.getText().toString());
         v = Float.parseFloat(velocity.getText().toString());
@@ -94,9 +94,9 @@ public class horizontalInputs extends ActionBarActivity {
 
     }
     public void solveForTime(){
-        float d = 0;
-        float v = 0;
-        float result = 0;
+        float d;
+        float v ;
+        float result ;
 
         d = Float.parseFloat(displacement.getText().toString());
         v = Float.parseFloat(velocity.getText().toString());

@@ -82,10 +82,10 @@ public class verticalVelocityInitial extends ActionBarActivity {
         Toast.makeText(this, "Please fill in more information! ", Toast.LENGTH_SHORT).show();
     }
     public void noAcc(){
-        float vdis = 0;
-        float vf  = 0;
-        float t = 0;
-        float result = 0;
+        float vdis ;
+        float vf ;
+        float t ;
+        float result;
 
         vdis = Float.parseFloat(vDisplacement.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
@@ -97,10 +97,10 @@ public class verticalVelocityInitial extends ActionBarActivity {
     }
     public void noVdis(){
 
-        float a = 0;
-        float vf  = 0;
-        float t = 0;
-        float result = 0;
+        float a;
+        float vf;
+        float t;
+        float result;
 
         a = Float.parseFloat(acc.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
@@ -112,10 +112,10 @@ public class verticalVelocityInitial extends ActionBarActivity {
     }
     public void noVf(){
 
-        float vdis = 0;
-        float a  = 0;
-        float t = 0;
-        float result = 0;
+        float vdis;
+        float a;
+        float t;
+        float result;
 
         vdis = Float.parseFloat(vDisplacement.getText().toString());
         a = Float.parseFloat(acc.getText().toString());
@@ -127,10 +127,10 @@ public class verticalVelocityInitial extends ActionBarActivity {
     }
     public void noT(){
 
-        float vdis = 0;
-        float vf  = 0;
-        float a = 0;
-        float result = 0;
+        float vdis;
+        float vf;
+        float a;
+        float result;
 
         vdis = Float.parseFloat(vDisplacement.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
@@ -141,10 +141,10 @@ public class verticalVelocityInitial extends ActionBarActivity {
         tvResult.setText("Velocity Initial is " + result);
     }
     public void filledSpot(){
-        float vdis = 0;
-        float vf  = 0;
-        float t = 0;
-        float result = 0;
+        float vdis;
+        float vf;
+        float t;
+        float result;
 
         vdis = Float.parseFloat(vDisplacement.getText().toString());
         vf = Float.parseFloat(vfinal.getText().toString());
